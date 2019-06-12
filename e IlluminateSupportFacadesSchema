@@ -1,0 +1,71 @@
+[33mcommit 42a34420b6c3945ac87097ca547221f35a64f20e[m[33m ([m[1;36mHEAD -> [m[1;32muser-statuses[m[33m, [m[1;31morigin/master[m[33m, [m[1;31mheroku/master[m[33m, [m[1;32mmaster[m[33m, [m[1;32maccount-activation-password-resets[m[33m)[m
+Author: vagrant <vagrant@homestead>
+Date:   Wed Jun 12 06:11:40 2019 +0000
+
+    Add password resets & email configuration
+
+[33mcommit d8eb6f28f0a25eedd969c9e9675639551a3a52ab[m
+Author: vagrant <vagrant@homestead>
+Date:   Wed Jun 12 02:34:20 2019 +0000
+
+    Add account activations
+
+[33mcommit 9bbdc589c9482bad4533264e3ccaba900130dc42[m[33m ([m[1;32mfilling-layout-style[m[33m)[m
+Author: vagrant <vagrant@homestead>
+Date:   Tue Jun 11 14:36:28 2019 +0000
+
+    Finish user edit, update, index, and destroy actions
+
+[33mcommit 81eede9b1891345a2fea2a93fc7baa344c9541c2[m[33m ([m[1;32mlogin-logout[m[33m)[m
+Author: vagrant <vagrant@homestead>
+Date:   Tue Jun 11 07:25:50 2019 +0000
+
+    Finish login and logout
+
+[33mcommit c191e91ff6f12087b5b7245e502cd1fce9272bf9[m
+Author: vagrant <vagrant@homestead>
+Date:   Tue Jun 11 05:49:46 2019 +0000
+
+    Updated database configuration
+
+[33mcommit e74e5588331d248404298d7fd4165683b23b418f[m[33m ([m[1;32msign-up[m[33m)[m
+Author: vagrant <vagrant@homestead>
+Date:   Tue Jun 11 05:38:01 2019 +0000
+
+    Finish user signup
+
+[33mcommit 9adfcea9e060dcd204c6ce65a57566994b45b9c6[m[33m ([m[1;32mmodeling-users[m[33m)[m
+Author: vagrant <vagrant@homestead>
+Date:   Tue Jun 11 01:18:01 2019 +0000
+
+    Move user model to models folder
+
+[33mcommit 7ebeb5885a1e5599920c206b519ccb8ce5680245[m
+Author: vagrant <vagrant@homestead>
+Date:   Mon Jun 10 15:43:08 2019 +0000
+
+    Finish layout and routes
+
+[33mcommit 42d9f569edd6a62d3765fc5488105f2e2fc7df9c[m[33m ([m[1;32mstatic-pages[m[33m)[m
+Author: vagrant <vagrant@homestead>
+Date:   Mon Jun 10 13:41:28 2019 +0000
+
+    Finish static pages
+
+[33mcommit c3e05977ec586623f60c5a9bcaa46fe7add3169d[m
+Author: vagrant <vagrant@homestead>
+Date:   Mon Jun 10 09:31:11 2019 +0000
+
+    Add .editorconfig
+
+[33mcommit 50583af49108e6252af6d850a2825673ee044e9f[m
+Author: vagrant <vagrant@homestead>
+Date:   Mon Jun 10 06:54:02 2019 +0000
+
+    Procfile for Heroku
+
+[33mcommit 63c6eaa0c343179d155e4fb75a134b03b5a7148f[m
+Author: vagrant <vagrant@homestead>
+Date:   Mon Jun 10 06:41:06 2019 +0000
+
+    Initial commit

@@ -35,12 +35,12 @@ class UsersController extends Controller
 
     }
 
-    public function show(User $user)
-    {
+    // public function show(User $user)
+    // {
 
-        return view('users.show', compact('user'));
+    //     return view('users.show', compact('user'));
 
-    }
+    // }
 
     public function edit(User $user)
     {
@@ -143,5 +143,13 @@ class UsersController extends Controller
         $user->delete();
         session()->flash('success', '成功删除用户！');
         return back();
+    }
+
+    public function show(User $user)
+    {
+        $statuses = $user->statuses()
+                           ->orderBy('created_at', 'desc')
+                           ->paginate(30);
+        return view('users.show', compact('user', 'statuses'));
     }
 }
