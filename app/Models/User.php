@@ -54,12 +54,6 @@ class User extends Authenticatable
         return $this->hasMany(Status::class);
     }
     
-    public function feed()
-    {
-        return $this->statuses()
-                    ->orderBy('created_at', 'desc');
-    }
-
     public function followers()
     {
         return $this->belongsToMany(User::Class, 'followers', 'user_id', 'follower_id');
